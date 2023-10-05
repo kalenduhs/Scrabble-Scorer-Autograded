@@ -31,6 +31,7 @@ function oldScrabbleScorer(word) {
 
 // your job is to finish writing these functions and variables that we've named //
 // don't change the names or your program won't work as expected. //
+// adding comment to repush
 
 function initialPrompt() {
    console.log("Let's play some scrabble!");
