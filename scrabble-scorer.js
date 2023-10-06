@@ -36,7 +36,7 @@ function oldScrabbleScorer(word) {
 function initialPrompt() {
    console.log("Let's play some scrabble!");
    let word = input.question("Enter a word to score: ");
-   scorerPrompt(word);
+   return word;
 };
 
 let simpleScorer = function (word) {
@@ -102,8 +102,8 @@ function transform(object) {
 let newPointStructure = transform(oldPointStructure);
 
 function runProgram() {
-   initialPrompt();
-   
+   let word = initialPrompt();
+   scorerPrompt(word);
 }
 
 // Don't write any code below this line //
